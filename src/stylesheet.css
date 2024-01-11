@@ -17,9 +17,7 @@
     src: url(https://fonts.gstatic.com/s/ibmplexmono/v19/-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-
-
- 
+  
   /* latin-ext */
   @font-face {
     font-family: 'IBM Plex Mono';
@@ -39,17 +37,31 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-
+  body{
+    background-color: whitesmoke;
+    max-width: 600px;
+    font-family:IBM Plex Mono, monospace, sans-serif;
+    flex: 1;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+  }
 
 .overskrift{
     text-align: center;
 }
 
-.homeDesc{
+.Desc{
     text-align: center;
 }
 
-.homeDesc p{
+.Desc h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  text-align: center;
+}
+
+.Desc p{
     margin: 1;
 }
 
@@ -57,15 +69,78 @@
     text-align: center;
 }
 
+.portrait{
+  background-repeat: no-repeat;
+  padding-left: 30px;  /* width of the image plus a little extra padding */
+  display: block;  /* may not need this, but I've found I do */
+}
 
-body{
-    background-color: whitesmoke;
-    font-family:IBM Plex Mono, monospace, sans-serif;
+
+div.textboxright{
+  width: 600px;
+  height: auto;
+}
+
+.textboxright img{
+  margin-top: 32px;
+  height: 288px;; 
+  width: 192px;;
+  float: left;
+}
+
+.textboxright h3{
+  margin-left: 192px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 396px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.textboxright p{
+  margin-left: 192px;
+  text-align: center;
+  width: 396px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+div.textboxleft{
+  width: 600px;
+  height: auto;
+}
+
+.textboxleft img{
+  margin-top: 32px;
+  height: 288px;; 
+  width: 192px;;
+  float: right;
+}
+
+.textboxleft h3{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 396px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.textboxleft p{
+  text-align: center;
+  width: 396px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+
 }
 
 a{
-    color: #6741d9;
-    
+    color: #6741d9; 
 }
 a:before {
     content: "[";
@@ -74,4 +149,16 @@ a:after {
     content: "]";
 }
 
+.budgetfooter{
+  text-align: center;
+}
 
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  max-width: 600px;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
