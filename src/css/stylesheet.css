@@ -86,6 +86,7 @@ div.textboxright{
   height: 288px;; 
   width: 192px;;
   float: left;
+  vertical-align:middle;
 }
 
 .textboxright h3{
@@ -115,9 +116,10 @@ div.textboxleft{
 
 .textboxleft img{
   margin-top: 32px;
-  height: 288px;; 
-  width: 192px;;
+  height: 288px;
+  width: 192px;
   float: right;
+  vertical-align:middle;
 }
 
 .textboxleft h3{
@@ -149,9 +151,19 @@ a:after {
     content: "]";
 }
 
-.budgetfooter{
+.HomeButton{
   text-align: center;
 }
+
+.footer{
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #ccc;
+  bottom: 0;
+}
+
+
 
 hr{
   display: block;
