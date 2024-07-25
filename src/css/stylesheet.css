@@ -39,7 +39,7 @@
 
   body{
     background-color: whitesmoke;
-    max-width: 600px;
+    max-width: 650px;
     font-family:IBM Plex Mono, monospace, sans-serif;
     flex: 1;
     margin: 0 auto;
@@ -47,18 +47,18 @@
   }
 
 .overskrift{
-    text-align: center;
+    text-align: left;
 }
 
 .Desc{
-    text-align: center;
+    text-align: left;
 }
 
 .Desc h3{
   margin-top: 0px;
   margin-bottom: 0px;
 
-  text-align: center;
+  text-align: left;
 }
 
 .Desc p{
@@ -66,7 +66,7 @@
 }
 
 .links{
-    text-align: center;
+    text-align: left;
 }
 
 .portrait{
@@ -75,55 +75,21 @@
   display: block;  /* may not need this, but I've found I do */
 }
 
-
-div.textboxright{
-  width: 600px;
-  height: auto;
-}
-
-.textboxright img{
-  margin-top: 32px;
-  height: 288px;; 
-  width: 192px;;
-  float: left;
-  vertical-align:middle;
-}
-
-.textboxright h3{
-  margin-left: 192px;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  width: 396px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
-.textboxright p{
-  margin-left: 192px;
-  text-align: center;
-  width: 396px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-
 div.textboxleft{
-  width: 600px;
   height: auto;
 }
 
+/*img not in use atm*/
 .textboxleft img{
   margin-top: 32px;
   height: 288px;
   width: 192px;
   float: right;
-  vertical-align:middle;
+  vertical-align:left;
 }
 
 .textboxleft h3{
-  text-align: center;
+  text-align: left;
   margin-top: 0px;
   margin-bottom: 0px;
   width: 396px;
@@ -132,8 +98,7 @@ div.textboxleft{
 }
 
 .textboxleft p{
-  text-align: center;
-  width: 396px;
+  text-align: left;
   margin-top: 8px;
   margin-bottom: 8px;
   padding-left: 6px;
@@ -143,12 +108,6 @@ div.textboxleft{
 
 a{
     color: #6741d9; 
-}
-a:before {
-    content: "[";
-}
-a:after {
-    content: "]";
 }
 
 .HomeButton{
@@ -163,13 +122,11 @@ a:after {
   bottom: 0;
 }
 
-
-
 hr{
   display: block;
   height: 1px;
   border: 0;
-  max-width: 600px;
+  max-width: 650px;
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
